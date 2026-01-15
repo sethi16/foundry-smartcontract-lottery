@@ -13,7 +13,7 @@ import {Vm} from "forge-std/Vm.sol";
 contract RaffelTest is Test {
     Raffel public raffel;
     HelperConfig public helperConfig;
-    uint256 public interval = 300; // this is the interval for the raffel to be open
+    uint256 public interval = 300; // this is the interval for the raffel to be open and work
 
     address public user;
     address public player;
